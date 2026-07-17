@@ -1,10 +1,10 @@
 {
+  "clientVersion": "1.0.0",
   "launcherVersion": "1.0.0",
-  "clientVersion": "2.0.0",
-  "fullClientUrl": "https://drive.google.com/uc?export=download&id=...",
-  "updateUrl": "https://www.dropbox.com/s/.../update.zip?dl=1",
-  "dllFiles": [
-    { "name": "Djin.dll", "path": "BepInEx/plugins/Djin.dll", "url": "https://www.dropbox.com/s/.../Djin.dll?dl=1" },
-    { "name": "BAN.dll", "path": "BepInEx/plugins/BAN.dll", "url": "https://www.dropbox.com/s/.../BAN.dll?dl=1" }
-  ]
+  "clientDownloadUrl": "https://github.com/.../client-update.zip",
+  "launcherDownloadUrl": "https://github.com/.../launcher-update.zip",
+  "plugins": {
+    "Djin.dll": "https://github.com/.../Djin.dll",
+    "RGuard.dll": "https://github.com/.../RGuard.dll"
+  }
 }
